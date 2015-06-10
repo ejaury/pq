@@ -4,7 +4,7 @@ with limited resources.
 To run:
 
 ```
-python ./queue.py
+python ./pq.py
 ```
 
 

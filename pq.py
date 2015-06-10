@@ -94,7 +94,7 @@ class Consumer(Thread):
         while not self.should_stop:
             write_debug('-> Consumer: Waiting for a task to process...')
             try:
-                # Set a block timeout so we don't need to wait for long when
+                # Set a block timeout so we don't need to wait forever when
                 # stopping the process
                 task = q.get(block=True, timeout=2)
             except Empty:
