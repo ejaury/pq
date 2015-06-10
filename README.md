@@ -1,6 +1,8 @@
 A simple tool that simulates queue processing based on producer-consumer model
 with limited resources.
 
+Requires Python 2.7.
+
 To run:
 
 ```
